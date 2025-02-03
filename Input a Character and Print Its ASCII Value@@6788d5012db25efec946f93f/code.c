@@ -3,11 +3,11 @@
 int main() {
     char ch;
 
-    printf("Enter a character: ");
-    scanf("%c",&ch);
+    //Taking character input
+    scanf("%c", &ch);
 
-    printf("ASCII Value: %d\n", ch);
+    //Printing the ASCII value
+    printf("ASCII value: %d\n", ch);
 
-    return 0;
-
+      return 0;
 }
