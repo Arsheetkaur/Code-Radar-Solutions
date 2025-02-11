@@ -1,7 +1,11 @@
 # include <stdio.h>
 int main() {
-   int num1, num2;
-   scanf("%f %f", &num1 , &num2);
-   printf("Product: ",f);
-   return 0;
+  float num1, num2, product;
+
+  scanf("%f %f", &num1, &num2);
+
+  product = num1 + num2;
+
+  printf("Product: \n%.2f\n", Product);
+  return 0;
 }
