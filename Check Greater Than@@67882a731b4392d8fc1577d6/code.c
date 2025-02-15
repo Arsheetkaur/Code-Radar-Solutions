@@ -2,13 +2,13 @@
 # include <stdio.h>
 
 int main() {
-    int x,y;
+    int x, y;
     scanf("%d %d", &x, &y);
-    if (x>y){
-        printf("True");
+    if (x > y) {
+        printf("True\n");
     }
-    else{
-        printf("False")
+    else {
+        printf("False\n")
     }
     return 0;
     }
