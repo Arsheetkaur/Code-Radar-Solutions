@@ -2,11 +2,11 @@
 # include <stdio.h>
 
 int main() {
-    float a, b;
-    scanf("%f %f",&a, &b);
-    printf("%f", a+b);
-    printf("%f", a/b);
-    printf("%f", a*b);
-    printf("%f", a-b);
+    int a, b;
+    scanf("%d %d",&a, &b);
+    printf("%d", a+b);
+    printf("%d", a/b);
+    printf("%d", a*b);
+    printf("%d", a-b);
     return 0;
 } 
