@@ -6,10 +6,10 @@ int main() {
     scanf("%f %f", &cost_price, &selling_price);
     
     if (cost_price < selling_price) {
-        printf("Profit\n");
+        printf("Profit \n");
     }
     else {
-        printf("Loss\n");
+        printf("Loss \n");
     }
     return 0;
     }
