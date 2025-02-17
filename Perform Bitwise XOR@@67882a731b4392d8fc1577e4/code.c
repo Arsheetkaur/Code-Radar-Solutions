@@ -4,6 +4,6 @@
 int main() {
     int a, b;
     scanf("%d %d", &a, &b);
-    printf("%d", aX|b);
+    printf("%d", a^b);
     return 0;
 }
