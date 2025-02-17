@@ -11,7 +11,7 @@ int main() {
     else if (isaplha(ch)) {
         printf("Consonant \n");
     }
-    else if(isdigit(ch)) {
+    else if (isdigit(ch)) {
         printf("Digit \n");
     }
     else {
