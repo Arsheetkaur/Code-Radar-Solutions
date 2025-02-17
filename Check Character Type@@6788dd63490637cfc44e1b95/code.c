@@ -6,16 +6,16 @@ int main() {
     char ch;
     scanf("%c", &ch);
     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-        printf("Vowel");
+        printf("Vowel\n");
     }
     else if (isalpha(ch)) {
-        printf("Consonanat");
+        printf("Consonanat\n");
     }
     else if (isdigit(ch)) {
-        printf("Digit");
+        printf("Digit\n");
     }
     else {
-        printf("Special Character");
+        printf("Special Character\n");
     }
     return 0;
 }
