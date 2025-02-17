@@ -2,9 +2,9 @@
 # include <stdio.h>
 
 int main() {
-    int a>0;
+    int a;
     scanf("%d", &a);
-    if (a > 1 && a % 1 == 0) {
+    if (a > i && a % i == 0) {
         printf("Prime\n");
     }
     else {
