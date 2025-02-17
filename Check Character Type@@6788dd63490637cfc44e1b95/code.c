@@ -8,7 +8,7 @@ int main() {
     if (ch == 'a'' || ch == 'e'' || ch == 'i' || ch == 'o'' || ch == 'u') {
         printf("Vowel");
     }
-    else if (isa;pha(ch)) {
+    else if (isalpha(ch)) {
         printf("Consonanat");
     }
     else if (isdigit(ch)) {
