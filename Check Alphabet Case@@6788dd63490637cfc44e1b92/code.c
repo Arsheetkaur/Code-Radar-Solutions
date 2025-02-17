@@ -2,16 +2,16 @@
 # include <stdio.h>
 
 int main() {
-    char a;
-    scanf("%ch", &a);
-    if (a = A) {
-        printf("Uppercase");
+    char ch;
+    scanf("%ch", &ch);
+    if (isupper(ch)) {
+        printf("Uppercase\n");
     }
-    else if (a = z) {
-        printf("Lowercase");
+    else if (islower(ch)) {
+        printf("Lowercase\n");
     }
     else {
-        printf("Not an alphabet");
+        printf("Not an alphabet\n");
     }
     return 0;
 }
