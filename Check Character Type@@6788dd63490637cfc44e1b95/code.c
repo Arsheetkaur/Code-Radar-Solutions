@@ -5,17 +5,17 @@
 int main() {
     char ch;
     scanf("%c", &ch);
-    if (a,e,i,o,u) {
+    if (ch == 'a'' || ch == 'e'' || ch == 'i' || ch == 'o'' || ch == 'u') {
         printf("Vowel");
     }
-    else if (1,2) {
+    else if (isa;pha(ch)) {
+        printf("Consonanat");
+    }
+    else if (isdigit(ch)) {
         printf("Digit");
     }
-    else if (%) {
-        printf("Special Character");
-    }
     else {
-        printf("Consonant");
+        printf("Special Character");
     }
     return 0;
 }
