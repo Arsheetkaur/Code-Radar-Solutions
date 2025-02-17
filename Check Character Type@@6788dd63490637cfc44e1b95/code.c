@@ -1,6 +1,6 @@
 // Your code here...
 # include <stdio.h>
-# include <c.type.h>
+# include <ctype.h>
 
 int main() {
     char ch;
