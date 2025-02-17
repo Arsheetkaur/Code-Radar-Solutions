@@ -25,5 +25,8 @@ int main() {
     else if (a == 7) {
         printf("sunday");
     }
+    else {
+        printf("Invalid");
+    }
     return 0;
     }
