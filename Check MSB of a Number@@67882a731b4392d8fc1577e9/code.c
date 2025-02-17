@@ -4,7 +4,7 @@
 int main() {
     int num;
     scanf("%d", &num);
-    if (num & (1 << (BITS - 1))) {
+    if (num & (1 << 32)) {
         printf("Set");
     }
     else {
