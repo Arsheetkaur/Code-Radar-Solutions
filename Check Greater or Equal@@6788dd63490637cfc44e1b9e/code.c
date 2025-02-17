@@ -2,15 +2,14 @@
 # include <stdio.h>
 
 int main() {
-    int main() {
-        int a, b;
-        scanf("%d %d", &a, &b);
-        if (a >=b) {
-            printf("Yes");
+    int a, b;
+    scanf("%d %d", &a, &b);
+    if (a >=b) {
+        printf("Yes");
         }
-        else {
-            printf("No");
+    else {
+        printf("No");
         }
-        return 0;
+    return 0;
     }
 }
