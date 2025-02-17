@@ -2,8 +2,8 @@
 # include <stdio.h>
 
 int main() {
-    int a;
-    scanf("%d", &a);
+    char a;
+    scanf("%ch", &a);
     if (a = A) {
         printf("Uppercase");
     }
