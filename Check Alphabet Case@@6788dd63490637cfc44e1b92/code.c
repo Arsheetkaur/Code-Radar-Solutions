@@ -7,8 +7,11 @@ int main() {
     if (a = A) {
         printf("Uppercase");
     }
-    else {
+    else if (a = z) {
         printf("Lowercase");
+    }
+    else {
+        printf("Not an alphabet");
     }
     return 0;
 }
