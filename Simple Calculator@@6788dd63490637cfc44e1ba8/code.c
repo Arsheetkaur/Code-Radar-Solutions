@@ -8,5 +8,6 @@ int main() {
     printf("%d", a/b);
     printf("%d", a*b);
     printf("%d", a-b);
+    printf("error\n");
     return 0;
 } 
