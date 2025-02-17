@@ -2,8 +2,8 @@
 # include <stdio.h>
 
 int main() {
-    int a, b;
-    scanf("%d %d",&a, &b);
+    float a, b;
+    scanf("%f %f",&a, &b);
     printf("%d", a+b);
     printf("%d", a/b);
     printf("%d", a*b);
