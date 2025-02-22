@@ -3,7 +3,7 @@
 
 int main() {
     int a;
-    sanf("%d", &a);
+    scanf("%d", &a);
     if (a == 1) {
         printf("31\n");
     }
