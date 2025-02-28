@@ -2,7 +2,7 @@
 # include <stdio.h>
 
 int main() {
-    int n = 4;
+    int n;
     int prime = 0;
     for (int i = 2; i < n; i++)
     {
