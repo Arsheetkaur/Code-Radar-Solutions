@@ -2,7 +2,7 @@
 # include <stdio.h>
 
 int main() {
-    int n;
+    int n=4;
     scanf("%d", &n);
     if ( n % 1 == 0){
         printf("Prime\n", n);
