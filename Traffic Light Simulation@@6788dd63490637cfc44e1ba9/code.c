@@ -2,19 +2,21 @@
 # include <stdio.h>
 
 int main() {
-    char ch;
-    scanf("%c", &ch);
-    if (ch == R) {
-        printf("Stop");
-    }
-    else if (ch == G) {
-        printf("Go");
-    }
-    else if (ch == SD) {
-        printf("Slow Down");
-    }
-    else {
+    char light;
+    scanf("%c", &light);
+    switch (light) {
+        case 'R':
+        printf("Stop\n");
+        break;
+        case 'G':
+        printf("Go\n");
+        break;
+        case 'Y':
+        printf("Slow Down\n");
+        break;
+        default:
         printf("Invalid input");
+        return 0;
+
     }
-    return 0;
 }
