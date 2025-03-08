@@ -7,7 +7,7 @@ int main() {
     scanf("%d %d %c",&num1, &num2, &op);
     switch (op) {
         case '+':
-        redult = num1 + num2;
+        result = num1 + num2;
         printf("%d\n", result);
         break;
         case '-':
@@ -23,7 +23,7 @@ int main() {
         printf("%d\n", result);
         break;
         default:
-        printf("Erro\n");
+        printf("Error\n");
     }
     return 0;
 } 
