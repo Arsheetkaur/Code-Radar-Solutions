@@ -4,12 +4,11 @@
 
 int main()
 {
-    int N;
+    int N = 5;
     scanf("%d", &N);
 
-    for (i <= 10)
-    {
-        printf("N x i = %d", N);
+    while (N <=10){
+        printf("N x i = %d");
     }
     return 0;
 }
