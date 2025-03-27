@@ -7,13 +7,13 @@ int main()
     int N;
     scanf("%d\n", &N);
 
-    for (int i = N; i <= N; i++)
+    for (int i = N; i <= N; i--)
     {
         for (int j = N; j > i; j++)
         {
             printf(" ");
         }
-        for (int k = N; k <= 2 * i - 1; k--)
+        for (int k = N; k <= 2 * i - 1; k++)
         {
             printf("*");
         }       
