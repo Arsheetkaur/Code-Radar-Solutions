@@ -7,9 +7,9 @@ int main()
     int N;
     scanf("%d\n", &N);
 
-    for (int i = N; i <= N; i--)
+    for (int i = N; i <= N; i++)
     {
-        for (int j = N; j > i; j++)
+        for (int j = N; j > i; j--)
         {
             printf(" ");
         }
