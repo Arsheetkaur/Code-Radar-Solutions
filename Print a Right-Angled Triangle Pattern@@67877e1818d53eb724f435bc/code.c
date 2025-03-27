@@ -2,10 +2,9 @@
 
 int main() {
     int N;
-    scanf("%d", &N); // Taking input for the number of rows
-
+    scanf("%d\n", &N); // Taking input for the number of rows
     for (int i = 1; i <= N; i++) { // Loop from N to 1
-        for (int j = 1; j <= i; j--) { // Print i stars in each row
+        for (int j = 1; j <= i; j++) { // Print i stars in each row
             printf("* ");
         }
         printf("\n"); // New line after each row
