@@ -2,22 +2,16 @@
 
 # include <stdio.h>
 
-int main() 
-{
-    int N;
-    scanf("%d\n", &N);
-
-    for (int i = N; i <= N; i++)
-    {
-        for (int j = N; j > i; j--)
-        {
+int main(){
+    int n;
+    scanf("%d", &n);
+    for (int i=1;i<=n;i++){
+        for (int j=1;j<=n;j++){
             printf(" ");
         }
-        for (int k = N; k <= 2 * i - 1; k++)
-        {
-            printf("* ");
-        }       
-        printf("\n");
+        for (k=1;k<=(2*n-1);k++){
+            printf("*");
+        }
     }
     return 0;
 }
