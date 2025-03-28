@@ -1,13 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int N;
-    scanf("%d\n", &N); // Taking input for the number of rows
-    for (int i = 1; i <= N; i++) { // Loop from N to 1
-        for (int j = 1; j <= i; j--) { // Print i stars in each row
+    int n;
+
+    // Take input for the number of rows without any prompt message
+    scanf("%d", &n);
+
+    // Loop to print the rows
+    for (int i = 1; i <= n; i++) {
+        // Loop to print stars
+        for (int j = 1; j <= i; j++) {
             printf("* ");
         }
-        printf("\n"); // New line after each row
+        // Move to the next line after each row
+        printf("\n");
     }
 
     return 0;
