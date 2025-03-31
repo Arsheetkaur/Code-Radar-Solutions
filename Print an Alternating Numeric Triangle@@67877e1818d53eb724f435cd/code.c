@@ -9,7 +9,7 @@ int main(){
             if((i+j)%2==0) printf("1");
             else printf("0");
         }
-        pprintf("\n");
+        printf("\n");
     }
     return 0;
 }
