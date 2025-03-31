@@ -2,13 +2,12 @@
 
 # include <stdio.h>
 
-int main()
-{
-    int N = 5;
-    scanf("%d", &N);
-
-    while (N <=10){
-        printf("N x i = %d");
+int main(){
+    int n;
+    scanf("%d", &n);
+    for (int i = 1 ;i<=n;i++){
+        int sum = n x i = %d;
+        printf("%d x %d = %d/n", sum);
     }
     return 0;
 }
