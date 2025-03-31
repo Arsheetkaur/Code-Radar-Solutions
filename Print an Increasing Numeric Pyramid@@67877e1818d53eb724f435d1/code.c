@@ -3,20 +3,13 @@
 
 int main(){
     int n;
-    scanf("%d",&n);
-    int nsp = n-1;
+    scnaf("%d",&n);
     for(int i=1;i<=n;i++){
-        int a=i-1;
-        for(int q=0;q<=nsp;q++){
-            printf("");
-        }
-        nsp--;
-        for(int j=1;j<=i;j++){
+        for(int j=1;j<=n-i;j++){
             printf("%d ", j);
         }
-        for(int k=1;k<=i-1;k++){
-            printf("%d ", a);
-            a--;
+        for(int j=1;j<=i;j++){
+            printf("%d ", j);
         }
         printf("\n");
     }
