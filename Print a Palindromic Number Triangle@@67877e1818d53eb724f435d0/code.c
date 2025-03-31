@@ -2,7 +2,6 @@
 
 int main() {
   int n;
-  printf("Enter the no. of rows: ");
   scanf("%d", &n);
   int nsp = n-1;
   for (int i=1;i<=n;i++){
