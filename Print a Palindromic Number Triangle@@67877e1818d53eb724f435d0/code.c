@@ -1,23 +1,26 @@
 // Your code here...
 # include <stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    int nsp = n - 1;
-    for(int i=1;i<=n;i++){
-        int a = i - 1;
-        for(int q=1;q<=nsp;q++){
-            printf("");
-        }
-        nsp--;
-        for(int j=1;j<=n-i;j++){
-            printf("");
-        }
-        for(int k=1;k<=i-1;k++){
-            printf("%d", a);
-            a--;
-        }
-        printf("\n");
+
+int main() {
+  int n;
+  printf("Enter the no. of rows: ");
+  scanf("%d", &n);
+  int nsp = n-1;
+  for (int i=1;i<=n;i++){
+    int a = i - 1;
+    for (int q=1;q<=nsp;q++){ // spaces le liye ek loop
+      printf(" ");
     }
-    return 0;
+    nsp--;
+    for (int j=1;j<=i;j++){ // number triangle
+      printf("%d", j);
+    }
+    
+    for(int k=1;k<=i-1;k++){
+      printf("%d", a);
+      a--;
+    }
+    printf("\n");
+  }
+  return 0;
 }
