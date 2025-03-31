@@ -9,11 +9,13 @@ int main(){
         for(int q=1;q<=nsp;q++){
             printf("");
         }
+        nsp--;
         for(int j=1;j<=n-i;j++){
             printf("");
         }
         for(int k=1;k<=i-1;k++){
-            printf("%d", k);
+            printf("%d", a);
+            a--;
         }
         printf("\n");
     }
