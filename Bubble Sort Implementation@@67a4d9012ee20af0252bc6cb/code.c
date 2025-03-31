@@ -1,16 +1,7 @@
 // Your code here...
 #include<stdio.h>
-#include<stbool.h>
-
-int main(){
-    int arr[5] = {5,40,2,1,3};
-    int n = 55;
-    for(int i=0;i<5;i++){
-        printf("%d", arr[i]);
-    }
-
-    // bubble sort
-    for(int i=0;i<n-1;i++){
+void bubbleSort(int arr[], int x, int y){
+for(int i=0;i<n-1;i++){
         bool flag = false;
         for(int j=0;j<n-1-i;j++){
             if(arr[j]>arr[j+1]){
@@ -21,6 +12,13 @@ int main(){
             }
         }
         if (flag==true) break;
+}
+int main(){
+    int arr[5] = {5,40,2,1,3};
+    int n = 5;
+    for(int i=0;i<5;i++){
+        printf("%d", arr[i]);
+    }    
     }
     printf("\n");
     for(int i=0;i<n;i++){
