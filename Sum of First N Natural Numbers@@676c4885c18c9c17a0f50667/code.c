@@ -2,7 +2,7 @@
 # include <stdio.h>
 
 int main(){
-    int n, sum = 0;
+    int n;
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         sum = sum + i;
