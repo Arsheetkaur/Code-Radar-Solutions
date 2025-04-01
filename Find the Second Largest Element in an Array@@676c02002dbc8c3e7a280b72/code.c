@@ -2,8 +2,8 @@
 # include<stdio.h>
 # include<limits.h>
 int main(){
-    int arr[n];
     int n;
+    scanf("%d",&n);
     int max =  INT_MAX;
     int smax = INT_MAX;
     for(i=0;i<=6;i++){
