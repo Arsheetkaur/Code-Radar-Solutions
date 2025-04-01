@@ -5,7 +5,7 @@ int main(){
     int arr[n];
     int n;
     int max =  INT_MAX;
-    int smax = INT_MAx;
+    int smax = INT_MAX;
     for(i=0;i<=6;i++){
         if(max<arr[i]){
             smax = max;
