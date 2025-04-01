@@ -2,7 +2,7 @@
 # include<stdio.h>
 # include<limits.h>
 int main(){
-    int arr[];
+    int arr[n];
     int n;
     int max =  INT_MAX;
     int smax = INT_MAx;
